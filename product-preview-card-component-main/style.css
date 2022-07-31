@@ -86,7 +86,7 @@ body {
     clear: both;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 412px) {
     .container {
         border-radius: 10px;
         width: 90%;
@@ -99,7 +99,7 @@ body {
         border-radius: 0;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-        height: 236px;
+        height: 260px;
         width: 100%;
     }
     
@@ -111,13 +111,12 @@ body {
     }
 
     .description-product h1 {
-        font: 32px/40px 'Fraunces', serif;
+        font: 36px/40px 'Fraunces', serif;
         margin: 15px 0;
     }
 
     .description-product .desc {
         margin: 20px 0;
-        padding: 0;
     }
 
     .price h1 {
@@ -126,7 +125,7 @@ body {
 
     .description-product a {
         margin: 0 auto;
-        padding: 10px 6rem;
+        padding: 0.8rem 7rem;
         text-decoration: none;
     }
 }
