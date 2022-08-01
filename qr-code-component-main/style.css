@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    width: 90%;
+}
+
+main .qr-code {
+    background-image: url(images/image-qr-code.png);
+    background-size: cover;
+    border-radius: 10px;
+    margin: auto;
+    width: 283px;
+    height: 283px;
+}
+
+main h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    text-align: center;
+    text-indent: 10px;
+    padding: 10px;
+}
+
+main p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    text-indent: 10px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
